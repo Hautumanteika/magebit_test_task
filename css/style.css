@@ -239,10 +239,10 @@ and (max-device-width : 1061px) {
     box-shadow: 0px 0px 82px 8px rgba(0,0,0,0.35);
         background-color: white;
         position: absolute;
-        width: 33.125%;
+        width: 90%;
         height: 57.5%;
-        top: 0;
-        left: 0;
+        top: 2%;
+        left: 2.5%;
         right:0;
         bottom:0;
         background-color: white;
