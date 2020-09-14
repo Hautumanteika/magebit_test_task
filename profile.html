@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Magebit test taskx`</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=News Cycle">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="profile" style="color: black; padding-left: 5%; padding-top: 5%;">
+        <?php session_start(); ?>
+        <h1>Hello <?php echo $_SESSION['logged_user_name'] ?></h1>
+        <hr>
+        <h2>Your email : <?php echo $_SESSION['logged_user_email'] ?></h2>
+        <label for="">Logout?</label>
+        <button onclick="window.location.href='backend/logout.php'" style="color: black;">Logout</button>
+    </div>
+</body>
+</html>

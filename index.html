@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Magebit test taskx`</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=News Cycle">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="menu">
+        <div class="sign_up">
+            <div class="contain">
+                <h2>Don't have an account?</h2>
+                <hr>
+                <p class="text">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn">Sign up</button>
+            </div>
+        </div>
+        <div class="login">
+            <div class="contain">   
+                <h2>Have an account?</h2>
+                <hr>
+                <p class="text">
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                </p>
+                <button class="btn">Login</button>
+            </div>  
+        </div>
+    </div>
+    <div class="inputs">
+        <img src="images/bgfolds.png" alt="" class="side_bar">
+        <form class="signup-form" method="POST" action="backend/registration.php">
+                <div class="login_input">
+                    <div class="top">
+                        <h2 class="login_signup">Sign-Up</h2>
+                        <img src="images/logo.png" alt="" class="logo">
+                    </div>
+                    <hr class="input_log_hr">
+                    <div class="input">
+                        <div class="input_bar">
+                            <p>Name<sup style="color: red" class="user_name_notification">*</sup></p>
+                            <input type="text" class="user_name" name="user_name">
+                            <i class="fa fa-user" style="color: #a7b3cb;"></i>
+                        </div>
+                        <div class="input_bar">
+                            <p>Email<sup style="color: red" class="email_notification">*</sup></p>
+                            <input type="email" class="user_email" name="user_email">
+                            <i class="fa fa-envelope-o" style="color: #a7b3cb;"></i>
+                        </div>
+                        <div class="input_bar">
+                            <p>Password<sup style="color: red" class="password_notification">*</sup></p>
+                            <input type="password" class="user_password" name="user_password">
+                            <i class="fa fa-lock" style="color: #a7b3cb;"></i>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <button class="sumbint_btn sign_up_submit" type="submit" name="Sign_up">Sign up</button>
+                        <a href="">Forgot?</a>
+                    </div>
+                </div>
+        </form>
+        <form class="login-form" method="POST" action="backend/login.php">
+            <div class="login_input">
+                <div class="top">
+                    <h2 class="login_signup">Login</h2>
+                    <img src="images/logo.png" alt="" class="logo">
+                </div>
+                <hr class="input_log_hr">
+                <div class="input">
+                    <div class="input_bar">
+                        <p>Email<sup style="color: red" class="login_email_notification">*</sup></p>
+                        <input type="email" class="login_email" name="login_user_email">
+                        <i class="fa fa-envelope-o" style="color: #a7b3cb;"></i>
+                    </div>
+                    <div class="input_bar">
+                        <p>Password<sup style="color: red" class="login_password_notification">*</sup></p>
+                        <input type="password" class="login_password" name="login_user_password">
+                        <i class="fa fa-lock lock" style="color: #a7b3cb;"></i>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <button class="sumbint_btn login_submit" type="submit" name="Login">Login</button>
+                    <a href="">Forgot?</a>
+                </div>
+            </div>
+    </form>
+    </div>
+    <footer>
+        <div class="magebit_rights">
+            <p>All rights reserved "Magebit" 2016.</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/authorization.js"></script>
+</body>
+</html>
